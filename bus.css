@@ -1,0 +1,447 @@
+img{
+    margin-top:0%;
+    margin-left: 1%;
+    width: 100px;
+    height: 100px; 
+    display: flex;
+} 
+.content-first h1, h2 { 
+    font-size: 3rem; 
+    text-align: center;
+
+}
+ 
+.content-first p{
+   text-align: center; 
+  font-size: 1.3rem;
+}
+#first p span{
+    margin-left: 13%;
+}
+#key{
+    text-align: center;  
+    margin-top: 2.5%;
+    font-size: 1.3rem;
+}
+.firstcontainer{
+    margin-top: 1%;
+    display: flex;
+    gap: 2rem; 
+  }
+#row1{
+    margin: 2px 2px 2px 2px ;
+    width: 100%;
+ 
+}
+
+#row2{
+    width: 100%; 
+}
+
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10{ 
+    padding-left: 15px;
+    padding-top: 17px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(255, 102, 0);
+    height: 70px;
+    font-size: 1.3rem; 
+    margin-top: 2%;
+}
+   
+#box1 span,
+ #box2 span,
+ #box3 span,
+ #box4 span,
+ #box5 span,
+ #box6 span,
+ #box7 span, 
+ #box8 span,
+ #box9 span,
+ #box10 span{
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    float: right; 
+  height: 100%;
+  width: 150px; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 1%;
+  margin-top: -3.8%;
+ } 
+ #box2 span{
+   margin-top: -0.8%;
+ }
+   
+ #box3 span{ 
+  margin-top: -0.9%;
+ }
+    
+ #box4 span{ 
+  margin-top: -1%;
+ } 
+   
+ #box5 span{ 
+    margin-top: -1%;
+ }
+
+ #box6 span{ 
+    margin-top: -1%;
+}
+ 
+   
+ #box7 span{ 
+    margin-top: -0.8%;
+ }
+    
+ #box8 span{ 
+    margin-top: -1%;
+ }
+  
+   
+ #box9 span{ 
+    margin-top: -1%;
+ } 
+   
+ #box10 span{ 
+    margin-top: -1%;
+ } 
+ .content-second h1,p{
+   text-align: center;
+
+ }
+
+ .content-second h1 { 
+   font-size: 3rem;
+} 
+.content-second p{ 
+ font-size: 1.3rem;
+}  
+.content-third{
+   text-align: center;
+}
+.content-third h1 { 
+   font-size: 3rem;
+} 
+.content-third p{ 
+   font-size: 1.3rem;
+}  
+  
+#box11, #box12, #box13, #box14, #box15, #box16, #box17, #box18, #box19, #box20{ 
+   padding-left: 15px;
+   padding-top: 17px;
+   color: white;
+   border-radius: 10px;
+   background-color: rgb(255, 102, 0);
+   height: 110px;
+   font-size: 1.3rem; 
+   margin-top: 2%; 
+}
+
+  
+#box11 span,
+#box12 span,
+#box13 span,
+#box14 span,
+#box15 span,
+#box16 span,
+#box17 span,
+#box18 span,
+#box19 span,
+#box20 span
+{
+   color: white;
+   border-radius: 10px;
+   background-color: black;
+   float: right; 
+   height: 90%;
+   width: 150px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1%; 
+   margin-top: -10.7%;
+    
+}
+
+
+   
+#box12 span{ 
+ margin-top: -5.8%;
+}
+ 
+   
+#box13 span{ 
+ margin-top: -8.7%;
+}
+
+ 
+   
+#box14 span{ 
+ margin-top: -8.7%;
+}
+
+ 
+   
+#box15 span{ 
+ margin-top: -6%;
+}
+ 
+  
+#box16 span{  
+ margin-top: -8.1%;
+}  
+#box17 span{  
+ margin-top: -6%;
+}  
+#box18 span{  
+ margin-top: -9%;
+} 
+#box19 span{  
+ margin-top: -6%;
+} 
+  
+#box20 span{ 
+ margin-top: -6.2%;
+}
+#fourth p{ 
+   font-size: 1.3rem;
+}
+#fourth h1{
+   font-size: 3rem;
+}
+
+
+@media(max-width: 1280px){
+    html{
+      font-size: 55%;
+    }    
+}
+    @media(max-width:895px) {
+html{
+   font-size: 90%;
+}
+.image{   
+    display: flex;
+   justify-content: center;
+    filter: drop-shadow(0 0 25px rgb(227, 99, 7));   
+}
+   .content-first h1, h2 {  
+      font-size: 2rem;
+      margin-top: 5%;
+      text-align: center; 
+   
+  } 
+  .content-first p{ 
+   text-align: center;
+   font-size: 1rem;
+  } 
+
+ #key{ 
+   margin-top: 5rem;
+   text-align: center;
+   font-size: 1.3rem;
+}
+.firstcontainer{  
+   display: flex;
+   flex-direction: column; 
+  
+
+}
+#row1{
+   margin: 2px 2px 2px 2px ;
+     
+}
+
+#row2{
+   margin: 100px 2px 2px 2px ;
+    
+}
+
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9,
+#box10{   
+   padding-left: 8px;
+   padding-top: 15px;
+   color: white;
+   border-radius: 10px;
+   background-color: rgb(255, 102, 0);
+   height: 50px;
+   font-size: 1rem; 
+}
+  
+#box1 span,
+#box2 span,
+#box3 span,
+#box4 span,
+#box5 span,
+#box6 span,
+#box7 span,
+#box8 span,
+#box9 span,
+#box20 span
+{
+    color: white;
+   border-radius: 10px;
+   background-color: black;
+   float: right; 
+  margin: 1%;
+ margin-top: -5.8%;
+} 
+   
+ #box2 span{ 
+  margin-top: -1.8%;
+ } 
+   
+ #box3 span{ 
+  margin-top: -1.8%;
+ } 
+ #box4 span{
+  margin-top: -1.8%;
+ } 
+ #box5 span{
+  margin-top: -1.8%;
+ }
+  
+ #box6 span{ 
+  margin-top: -1.8%;
+ }
+  
+ #box7 span{ 
+  margin-top: -1.8%;
+ }
+  #box8 span{ 
+  margin-top: -1.8%;
+ }
+ 
+  
+   
+ #box9 span{ 
+  margin-top: -1.8%;
+ }
+    
+ #box10 span{ 
+  margin-top: -1.8%;
+ }
+
+.content-second h1 { 
+   font-size: 2rem; 
+
+   text-align: center;
+
+}
+ 
+.content-second p{ 
+   text-align: center;
+   font-size: 1rem;
+} 
+ 
+ 
+.content-third h1 { 
+   font-size: 2rem;
+   
+}
+ .content-third h1, p{
+   text-align: center;
+
+ }
+.content-third p{ 
+   font-size: 1rem;
+} 
+ 
+#box11, 
+#box12, 
+#box13, 
+#box14, 
+#box15, 
+#box16, 
+#box17, 
+#box18, 
+#box19, 
+#box20{   
+     padding-left: 8px;
+     padding-top: 8px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(255, 102, 0);
+    height: 80px;
+    font-size: 1rem;  
+ }
+   
+ #box11 span{
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    float: right; 
+  height: 90%;
+   font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 1%;
+  margin-top: -14.9%;
+ }
+   
+#box12 span{ 
+ margin-top: -7.9%;
+}
+ 
+  
+#box13 span{
+    margin-top: -11.5%;
+}  
+#box14 span{
+  margin-top: -10.9%;
+}
+ 
+#box15 span{
+   margin-top: -7.9%;
+}
+ 
+  
+#box16 span{
+  margin-top: -11.9%;
+}
+
+
+  
+#box17 span{
+  margin-top: -8.9%;
+}
+   
+#box18 span{
+  margin-top: -13%;
+}
+  
+#box19 span{
+  margin-top: -8.7%;
+}
+  
+#box20 span{
+  margin-top: -7.8%;
+}
+
+
+#fourth h1 { 
+   font-size: 2rem; 
+   text-align: center;
+    
+} 
+#fourth p{ 
+   text-align: center;
+   font-size: 1rem;
+}
+ 
+
+}
